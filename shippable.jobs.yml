@@ -81,6 +81,7 @@ jobs:
 
   - name: runSh
     type: runSh
+    allowPublicAccess: true
     steps:
       - IN: pipelines-demo-manifest
       - TASK:
