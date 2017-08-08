@@ -450,6 +450,7 @@ jobs:
     type: manifest
     flags:
       - job-flag
+      - test
     steps:
      - TASK: managed
  
