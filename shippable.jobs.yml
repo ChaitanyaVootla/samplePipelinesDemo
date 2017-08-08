@@ -451,12 +451,11 @@ jobs:
     flags:
       - job-flag
     steps:
-     - IN: deploy-pipelines-demo
      - TASK: managed
  
 
   - name: new-flag-test-2
     type: manifest
     steps:
-     - IN: deploy-pipelines-demo
+     - IN: new-flag-test
      - TASK: managed
