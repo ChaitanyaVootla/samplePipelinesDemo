@@ -463,3 +463,27 @@ jobs:
      - IN: new-flag-test
      - TASK: managed
      - OUT: my-state
+ 
+
+  - name: new-flag-test-3
+    type: manifest
+    steps:
+     - IN: new-flag-test-2
+     - TASK: managed
+     - OUT: my-state
+ 
+
+  - name: new-flag-test-4
+    type: manifest
+    steps:
+     - IN: new-flag-test-3
+     - TASK: managed
+     - OUT: my-state
+ 
+
+  - name: new-flag-test-4
+    type: manifest
+    steps:
+     - IN: new-flag-test-4
+     - TASK: managed
+     - OUT: my-state
