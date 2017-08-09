@@ -589,6 +589,175 @@ jobs:
      - IN: pipelines-flag-test-image
      - TASK: managed
      - OUT: my-state
+ 
+
+  - name: new-flag-test-out2-1
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-11
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-12
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-13
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-14
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-15
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-16
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-17
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-18
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-19
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-10
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-111
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-122
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-133
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-144
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-155
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-166
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-177
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-188
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-199
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-1123
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-1234
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-345
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
+
+  - name: new-flag-test-out2-1456
+    type: manifest
+    steps:
+     - IN: new-flag-test-50
+     - TASK: managed
+     - OUT: my-state
 
 
 #image-in-test-block
@@ -635,9 +804,6 @@ jobs:
     steps:
      - IN: manifest-test-image
      - IN: manifest-test-image-1
-     - IN: manifest-test-image-2
-     - IN: manifest-test-image-7
-     - IN: manifest-test-image-8
      - IN: manifest-test-image-9
      - TASK: managed
      
@@ -680,8 +846,6 @@ jobs:
     steps:
      - IN: manifest-test-image-11
      - IN: manifest-test-image-12
-     - IN: manifest-test-image-13
-     - IN: manifest-test-image-14
      - IN: manifest-test-image-15
      - TASK: managed
      
