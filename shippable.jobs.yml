@@ -528,7 +528,7 @@ jobs:
      - OUT: my-state
  
 
-  - name: new-flag-test-5
+  - name: new-flag-test-50
     type: manifest
     steps:
      - IN: new-flag-test-4
