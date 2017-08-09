@@ -604,8 +604,6 @@ jobs:
     steps:
      - IN: manifest-test-image
      - IN: manifest-test-image-1
-     - IN: manifest-test-image-2
-     - IN: manifest-test-image-14
      - IN: manifest-test-image-15
      - TASK: managed
      
@@ -628,7 +626,6 @@ jobs:
     type: manifest
     steps:
      - IN: manifest-test-image-9
-     - IN: manifest-test-image-10
      - IN: manifest-test-image-11
      - IN: manifest-test-image-15
      - TASK: managed
@@ -639,10 +636,6 @@ jobs:
      - IN: manifest-test-image
      - IN: manifest-test-image-1
      - IN: manifest-test-image-2
-     - IN: manifest-test-image-3
-     - IN: manifest-test-image-4
-     - IN: manifest-test-image-5
-     - IN: manifest-test-image-6
      - IN: manifest-test-image-7
      - IN: manifest-test-image-8
      - IN: manifest-test-image-9
@@ -661,9 +654,6 @@ jobs:
     steps:
      - IN: manifest-test-image-4
      - IN: manifest-test-image-5
-     - IN: manifest-test-image-6
-     - IN: manifest-test-image-7
-     - IN: manifest-test-image-8
      - IN: manifest-test-image-9
      - IN: manifest-test-image-15
      - TASK: managed
@@ -672,14 +662,6 @@ jobs:
     type: manifest
     steps:
      - IN: manifest-test-image
-     - IN: manifest-test-image-1
-     - IN: manifest-test-image-2
-     - IN: manifest-test-image-3
-     - IN: manifest-test-image-4
-     - IN: manifest-test-image-5
-     - IN: manifest-test-image-6
-     - IN: manifest-test-image-7
-     - IN: manifest-test-image-8
      - IN: manifest-test-image-9
      - IN: manifest-test-image-10
      - IN: manifest-test-image-11
@@ -733,11 +715,9 @@ jobs:
   - name: image-manifest-test-24
     type: manifest
     steps:
-     - IN: manifest-test-image-10
      - IN: manifest-test-image-11
      - IN: manifest-test-image-12
      - IN: manifest-test-image-13
-     - IN: manifest-test-image-14
      - IN: manifest-test-image-15
      - TASK: managed
      
@@ -762,7 +742,6 @@ jobs:
     steps:
      - IN: manifest-test-image
      - IN: manifest-test-image-1
-     - IN: manifest-test-image-2
      - IN: manifest-test-image-3
      - IN: manifest-test-image-15
      - TASK: managed
@@ -802,9 +781,6 @@ jobs:
     type: manifest
     steps:
      - IN: manifest-test-image-10
-     - IN: manifest-test-image-11
-     - IN: manifest-test-image-12
-     - IN: manifest-test-image-13
      - IN: manifest-test-image-14
      - IN: manifest-test-image-15
      - TASK: managed
@@ -821,9 +797,7 @@ jobs:
     type: manifest
     steps:
      - IN: manifest-test-image
-     - IN: manifest-test-image-1
      - IN: manifest-test-image-13
-     - IN: manifest-test-image-14
      - IN: manifest-test-image-15
      - TASK: managed
      
@@ -840,7 +814,5 @@ jobs:
     steps:
      - IN: manifest-test-image
      - IN: manifest-test-image-1
-     - IN: manifest-test-image-2
-     - IN: manifest-test-image-3
      - IN: manifest-test-image-4
      - TASK: managed
