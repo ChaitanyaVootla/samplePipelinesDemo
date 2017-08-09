@@ -78,4 +78,7 @@ resources:
       isPull: false
     seed:
       versionName: "latest"
+
+  - name: my-state
+    type: state
       
