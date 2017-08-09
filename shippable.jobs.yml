@@ -454,6 +454,7 @@ jobs:
     steps:
      - IN: pipelines-flag-test-image
      - TASK: managed
+     - IN: my-state
  
 
   - name: new-flag-test-2
@@ -461,3 +462,4 @@ jobs:
     steps:
      - IN: new-flag-test
      - TASK: managed
+     - OUT: my-state
