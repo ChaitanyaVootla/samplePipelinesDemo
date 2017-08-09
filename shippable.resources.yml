@@ -81,4 +81,3 @@ resources:
 
   - name: my-state
     type: state
-      
