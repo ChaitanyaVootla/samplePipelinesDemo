@@ -228,3 +228,34 @@ resources:
       isPull: false
     seed:
       versionName: "latest"
+#res-test
+
+      
+  - name: res-test
+    type: image
+    integration: shipdeploy
+    pointer:
+      sourceName: "shippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamples/samplepipelinesdemo"
+      isPull: false
+    seed:
+      versionName: "latest"
+
+  - name: res-test-replicas
+    type: replicas
+    version:
+      count: 2
+    flags:
+      - replicas
+
+  - name: res-test-docker-options
+    type: dockerOptions
+    version:
+      portMappings:
+        - 80:80
+
+  - name: res-test-ecs-cluster
+    type: cluster
+    integration: aws
+    pointer:
+      sourceName : "my-cluster" #name of the cluster to which we are deploying
+      region: "us-west-2"
