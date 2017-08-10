@@ -19,6 +19,7 @@ jobs:
         
      - NOTIFY: irc
 
+
   - name: pipelines-demo-manifest-3
     type: manifest
     steps:
