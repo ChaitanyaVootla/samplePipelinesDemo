@@ -31,7 +31,6 @@ jobs:
     steps:
      - IN: deploy-pipelines-demo
      - TASK: managed
-     
 
   - name: pipelines-demo-manifest-25
     type: manifest
