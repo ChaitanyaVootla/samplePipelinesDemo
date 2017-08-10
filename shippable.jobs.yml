@@ -1200,3 +1200,39 @@ jobs:
      - IN: image-manifest-test-18
      - TASK: managed
      - OUT: my-state
+
+ #res-test
+
+  - name: res-test-manifest-1
+    type: manifest
+    steps:
+     - IN: res-test
+     - TASK: managed
+
+  - name: res-test-manifest-2
+    type: manifest
+    steps:
+     - IN: res-test-replicas
+     - IN: res-test-manifest-1
+     - TASK: managed
+
+  - name: res-test-manifest-3
+    type: manifest
+    steps:
+     - IN: res-test
+     - IN: res-test-manifest-2
+     - TASK: managed
+
+  - name: res-test-manifest-4
+    type: manifest
+    steps:
+     - IN: res-test-docker-options
+     - IN: res-test-manifest-3
+     - TASK: managed
+
+  - name: res-test-manifest-5
+    type: manifest
+    steps:
+     - IN: res-test-ecs-cluster
+     - IN: res-test-manifest-4
+     - TASK: managed
