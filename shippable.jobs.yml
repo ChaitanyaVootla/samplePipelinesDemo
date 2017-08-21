@@ -1238,3 +1238,16 @@ jobs:
      - IN: res-test-ecs-cluster
      - IN: res-test-manifest-4
      - TASK: managed
+
+  #mini-test
+
+  - name: mini-test-manifest
+    type: manifest
+    steps:
+     - IN: mini-test-image
+
+  - name: mini-test-manifest-2
+    type: manifest
+    steps:
+     - IN: mini-test-manifest
+
