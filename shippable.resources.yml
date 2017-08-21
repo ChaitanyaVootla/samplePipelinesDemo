@@ -270,3 +270,5 @@ resources:
       isPull: false
     seed:
       versionName: "latest"
+    flags:
+      - mini-test
