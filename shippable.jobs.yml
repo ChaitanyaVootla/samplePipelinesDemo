@@ -280,6 +280,7 @@ jobs:
      - IN: pipelines-demo-image3
      - IN: pipelines-demo-image4
      - IN: pipelines-demo-image5
+     - IN: runSh3
      - TASK: managed
     flags:
       - newManifest2
