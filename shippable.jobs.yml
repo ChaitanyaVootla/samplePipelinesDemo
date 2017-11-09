@@ -280,6 +280,8 @@ jobs:
      - IN: pipelines-demo-image4
      - IN: pipelines-demo-image5
      - TASK: managed
+    flags:
+      - newManifest2
 
   - name: newManifest23
     type: manifest
