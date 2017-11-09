@@ -824,7 +824,7 @@ jobs:
      - IN: manifest-test-image-5
      - IN: manifest-test-image-9
      - IN: manifest-test-image-15
-     - IN: newManifest-2
+     - IN: newManifest2
      - TASK: managed
      
   - name: image-manifest-test-18
