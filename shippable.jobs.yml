@@ -95,6 +95,7 @@ jobs:
     type: runSh
     steps:
       - IN: deploy-pipelines-demo
+      - OUT: image-manifest-test-17
       - TASK:
         - script: echo 'This block executes when the TASK starts'
         - script: echo "versionName=satble" >> $JOB_STATE/runSh3.env;
