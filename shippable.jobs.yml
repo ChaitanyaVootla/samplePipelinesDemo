@@ -828,6 +828,7 @@ jobs:
      - IN: manifest-test-image-9
      - IN: manifest-test-image-15
      - IN: newManifest2
+     - IN: runSh3
      - TASK: managed
      
   - name: image-manifest-test-18
