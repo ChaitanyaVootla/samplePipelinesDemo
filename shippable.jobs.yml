@@ -10,6 +10,8 @@ jobs:
      - TASK: managed
     on_success:
      - NOTIFY: irc
+    flags:
+     - new-test
 
   - name: pipelines-demo-manifest-2
     type: manifest
